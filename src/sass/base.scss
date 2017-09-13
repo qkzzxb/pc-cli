@@ -1,0 +1,8 @@
+@mixin setFonts($px) {
+  font-size: $px+px;
+}
+
+@mixin sameLine($px) {
+  line-height: $px+px;
+  height: $px+px;
+}
